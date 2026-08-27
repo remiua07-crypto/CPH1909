@@ -13,10 +13,6 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 # Inherit from CPH1909 device
 $(call inherit-product, device/oppo/CPH1909/device.mk)
 
-# Inherit some common Omni stuff.
-$(call inherit-product, vendor/omni/config/common.mk)
-$(call inherit-product, vendor/omni/config/gsm.mk)
-
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := CPH1909
 PRODUCT_NAME := omni_CPH1909
