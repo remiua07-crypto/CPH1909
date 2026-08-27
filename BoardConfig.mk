@@ -86,3 +86,12 @@ TW_EXTRA_LANGUAGES := true
 TW_SCREEN_BLANK_ON_BOOT := true
 TW_INPUT_BLACKLIST := "hbtp_vm"
 TW_USE_TOOLBOX := true
+
+# Brightness (OrangeFox/TWRP requirement)
+TW_MAX_BRIGHTNESS := 255
+TW_DEFAULT_BRIGHTNESS := 200
+TW_BRIGHTNESS_PATH := /sys/class/leds/lcd-backlight/brightness
+
+# OrangeFox
+OF_HIDE_NOTCH := 1
+OF_USE_MAGISKBOOT_FOR_ALL_PATCHES := 1
